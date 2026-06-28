@@ -1,0 +1,7 @@
+mainmenu "app config"
+
+source "Kconfig.zephyr"
+rsource "drivers/sensor/led_sensor/Kconfig"
+
+menuconfig LED_SUBSYSTEM
+	bool "LED Subsystem"

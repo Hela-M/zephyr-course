@@ -4,3 +4,12 @@ build
 # West files
 .west
 deps
+build/
+l4_build/
+l5_build/
+*.o
+*.a
+*.elf
+*.bin
+*.hex
+*.map
